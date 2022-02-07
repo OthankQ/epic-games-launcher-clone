@@ -45,7 +45,7 @@ header {
     border-bottom: 4px solid transparent;
 }
 
-#picked {
+.left-ui-menu .main-menu:hover {
     border-bottom: 4px solid #0078F2;
+    cursor: pointer;
 }
-
