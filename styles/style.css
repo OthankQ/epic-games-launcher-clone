@@ -2,4 +2,50 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
+    font-family: brutal, sans-serif;
 }
+
+.master-container {
+    height: 100vh;
+    background: #121212;
+}
+
+header {
+    background: #2a2a2a;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0px 10px;
+    padding-top: 5px;
+    color: #bbb;
+}
+.epic-logo img {
+    height: auto;
+    width: 28px;
+    margin-right: 15px;
+}
+
+.left-ui-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.left-ui-menu div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 0 15px;
+    height: 100%;
+    border-bottom: 4px solid transparent;
+}
+
+#picked {
+    border-bottom: 4px solid #0078F2;
+}
+
