@@ -11,6 +11,8 @@
     background: #121212;
 }
 
+/* Header */
+
 header {
     background: #2a2a2a;
     width: 100%;
@@ -19,8 +21,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    padding: 0px 10px;
-    padding-top: 5px;
+    padding: 0px;
     color: #bbb;
 }
 .epic-logo img {
@@ -45,7 +46,107 @@ header {
     border-bottom: 4px solid transparent;
 }
 
+.left-ui-menu .main-menu:hover {
+    border-bottom: 4px solid #0078F2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
 #picked {
     border-bottom: 4px solid #0078F2;
 }
 
+.right-ui {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 12px;
+}
+
+.right-ui i {
+    font-size: 20px;
+}
+
+.right-ui div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.right-ui .sign-in {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.right-ui a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.right-ui .download {
+    background: #0078F2;
+    height: 100%;
+}
+
+/* Searchbar */
+
+.searchbar-menu-container {
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    gap: 30px;
+    align-items: center;
+}
+
+.searchbar-menu-container .searchbar {
+    width: 150px;
+    background: #202020;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px 10px;
+    gap: 15px;
+    color: #676767;
+    align-items: center;
+}
+
+.searchbar-menu-container .searchbar:focus {
+    background-color: #474747;
+}
+
+.searchbar-menu-container .searchbar input{
+    background: #202020;
+    width: 90%;
+    height: 20px;
+    
+}
+
+.searchbar-menu-container .searchbar input:focus {
+    border: none;
+}
+
+.searchbar-menu-container .searchbar-menu {
+    display: flex;
+}
+
+.searchbar-menu-container .searchbar-menu ul {
+    display: flex;
+    color: #676767;
+    gap: 30px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.default {
+    color: #bbb;
+}
+
+.searchbar-menu-container .searchbar-menu ul li:hover{
+    color: #bbb;
+    cursor: pointer;
+    transition: 0.3s;
+}
