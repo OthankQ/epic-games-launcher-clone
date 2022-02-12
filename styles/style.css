@@ -19,8 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-    padding: 0px 10px;
-    padding-top: 5px;
+    padding: 0px;
     color: #bbb;
 }
 .epic-logo img {
@@ -48,4 +47,38 @@ header {
 .left-ui-menu .main-menu:hover {
     border-bottom: 4px solid #0078F2;
     cursor: pointer;
+}
+
+.right-ui {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 12px;
+}
+
+.right-ui i {
+    font-size: 20px;
+}
+
+.right-ui div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.right-ui .sign-in {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.right-ui a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.right-ui .download {
+    background: #0078F2;
+    height: 100%;
 }
